@@ -1,4 +1,4 @@
-For Building Android Kernel
+commonilding Android Kernel
 
 Create Android-kernel folder
 ----------------------------------
@@ -58,7 +58,7 @@ CONFIG_LOCALVERSION="-adarshverse"
 ### For some Android 14 kernels, to make Wi-Fi/Bluetooth work, it might be necessary to remove all GKI protected exports: ###
 
 ```bash
-nano common/BUILD.bazel
+nano +137 common/BUILD.bazel
 ```
 ### Nuke this in common/BUILD.bazel ###
 ```bash
