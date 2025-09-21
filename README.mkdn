@@ -42,7 +42,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 sed -i "/stable_scmversion_cmd/s/-maybe-dirty//g" ./build/kernel/kleaf/impl/stamp.bzl
 ```
 
-### Configs (For some android 13&14 kernels)###
+### Configs (For some android 13&14 kernels) ###
 Here remove check_defconfig from
 POST_DEFCONFIG_CMDS="check_defconfig"
 ```bash
