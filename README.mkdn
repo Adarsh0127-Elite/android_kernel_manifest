@@ -1,5 +1,8 @@
 Building Android Kernel
 
+Get your kernel manifest from-
+https://source.android.com/docs/core/architecture/kernel/gki-release-builds
+
 Create Android-kernel folder
 ----------------------------------
 
