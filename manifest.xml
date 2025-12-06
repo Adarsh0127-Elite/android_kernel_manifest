@@ -5,9 +5,9 @@
 
   <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2025-06" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2025-09" />
 
-  <project path="build/kernel" name="kernel/build" revision="6b755daf3fe8f72535db53518d9271811554c83f">
+  <project path="build/kernel" name="kernel/build" revision="06f7c2ac33c6d9927613bafd95def11d18924f5e">
     <linkfile dest="tools/bazel" src="kleaf/bazel.sh" />
 
     <linkfile dest="WORKSPACE" src="kleaf/bazel.WORKSPACE" />
@@ -17,7 +17,7 @@
     <linkfile dest="build/config.sh" src="config.sh" />
 </project>
 
-  <project path="common" name="kernel/common" revision="901d565c1f6a7d10b220d23026dda4c5bea41626" upstream="android14-6.1-2025-06" dest-branch="android14-6.1-2025-06" />
+  <project path="common" name="kernel/common" revision="a834abb484ccc28bc70f0481bd6872521face720" upstream="android14-6.1-2025-09" dest-branch="android14-6.1-2025-09" />
 
   <project path="kernel/configs" name="kernel/configs" revision="bd79f38685cf939ab836dd8ddd2e01506ccff47a" upstream="main" dest-branch="main" />
 
