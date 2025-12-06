@@ -6,6 +6,12 @@ https://source.android.com/docs/core/architecture/kernel/gki-release-builds
 
 ### Initialize local repository ###
 
+For 6.1.145 kernel ------
+
+```bash
+mkdir ~/android && git clone -b 6.1.145 https://github.com/Adarsh0127-Elite/android_kernel_manifest.git android && cd android && repo init -u https://android.googlesource.com/kernel/manifest --depth=1 && mv manifest.xml .repo/manifests && repo init -m manifest.xml --depth=1 && repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
 For 6.1.141 kernel ------
 
 ```bash
